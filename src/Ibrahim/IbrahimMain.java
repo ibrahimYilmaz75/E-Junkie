@@ -41,7 +41,7 @@ public class IbrahimMain extends BaseDriver {
         aksiyon1.perform();
 
         // 10sn bekle
-        MyFunc.Bekle(10);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[@class='ytp-time-current'][text()='0:10']")));
 
 
         // Videoyu duraklat
