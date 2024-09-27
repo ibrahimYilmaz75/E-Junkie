@@ -1,4 +1,4 @@
-package Ibrahim;
+package US_301_;
 
 import Utility.BaseDriver;
 import Utility.MyFunc;
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class US_301_Utku extends BaseDriver {
+public class US_301_ extends BaseDriver {
     @Test
     public void Test() {
         driver.get("https://shopdemo.fatfreeshop.com/");
