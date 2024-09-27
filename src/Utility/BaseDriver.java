@@ -10,7 +10,7 @@ import java.awt.*;
 import java.time.Duration;
 
 public class BaseDriver {
-    public static WebDriver driver;
+    public static WebDriver  driver;
     public static WebDriverWait wait;
     public static JavascriptExecutor js;
     public static Actions actions;
