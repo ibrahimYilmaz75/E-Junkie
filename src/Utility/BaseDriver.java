@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 
 public class BaseDriver {
-    public static WebDriver driver;
+    public static WebDriver  driver;
     public static WebDriverWait wait;
     public static JavascriptExecutor js;
     static  // tearStart()
